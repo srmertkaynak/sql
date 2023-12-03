@@ -1,2 +1,4 @@
 // Tüm müşterileri getir
 SELECT * FROM public.musteriler;
+
+// BİLGİ: ID olmasını istediğimiz Primary Key alanlarının türü serial olmalıdır.
