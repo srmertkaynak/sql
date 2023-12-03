@@ -1,0 +1,10 @@
+// Tüm müşterileri getir
+SELECT * FROM `musteriler`
+// İzmir şehrinde olanları getir
+SELECT * FROM musteriler where sehir = "İzmir"
+// Bilet numarası 5'ten büyük olan bilet numaralarını getir.
+SELECT biletNo from musteriler where bilet_no>5
+// Bilet numarası 5'ten büyük olan ve İzmir şehrinde yaşayan tüm müşterileri getir.
+SELECT * from musteriler where bilet_no>5 AND sehir = "İzmir"
+// İzmirde yaşamayan müşterileri getir.
+SELECT * from musteriler where sehir != "İzmir"
